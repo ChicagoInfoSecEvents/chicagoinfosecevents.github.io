@@ -1,44 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Chicago InfoSec Events Calendar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago InfoSec Events Calendar</title>
+    <meta name="description" content="A community calendar coordinating all in-person information security events in the Chicagoland area.">
+    <link rel="icon" href="favicon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chicagoinfosecevents.com/">
+    <meta property="og:title" content="Chicago InfoSec Events Calendar">
+    <meta property="og:description" content="A community calendar coordinating all in-person information security events in the Chicagoland area.">
+    <meta property="og:image" content="og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://chicagoinfosecevents.com/">
+    <meta name="twitter:title" content="Chicago InfoSec Events Calendar">
+    <meta name="twitter:description" content="A community calendar coordinating all in-person information security events in the Chicagoland area.">
+    <meta name="twitter:image" content="og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://chicagoinfosecevents.com/">
+    
+    <meta name="theme-color" content="#0E4D92">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<h1>Welcome to the Chicago InfoSec Events Calendar FAQ!</h1>
+    <header>
+        <div class="skyline"></div>
+        <div class="header-content container">
+            <h1>Chicago InfoSec Events Calendar</h1>
+            <div class="chicago-flag">
+                <span class="flag-star chicago-star"></span>
+                <span class="flag-star chicago-star"></span>
+                <span class="flag-star chicago-star"></span>
+                <span class="flag-star chicago-star"></span>
+            </div>
+        </div>
+    </header>
 
-<p style="font-size:22px; ">The purpose of this effort is to coordinate scheduling for all the in-person security events in the Chicagoland area.<br />
-<br />
-<b>There are multiple ways to access the calendar:</b><br />
-<br />
-<b>Public Calendar:</b><br />
-<a href="https://calendar.google.com/calendar/embed?src=chicagoinfosecevents@gmail.com&ctz=America%2FChicago" target="_blank">https://calendar.google.com/calendar/embed?src=chicagoinfosecevents@gmail.com&ctz=America%2FChicago</a><br />
-<br />
-<b>Public iCal:</b><br />
-<a href="https://calendar.google.com/calendar/ical/chicagoinfosecevents@gmail.com/public/basic.ics" target="_blank"> https://calendar.google.com/calendar/ical/chicagoinfosecevents@gmail.com/public/basic.ics</a><br />
-<br />
-<b>To integrate with your personal Google calendar:</b><br />
-<a href="https://calendar.google.com/calendar/u/0?cid=Y2hpY2Fnb2luZm9zZWNldmVudHNAZ21haWwuY29t" target="_blank"> https://calendar.google.com/calendar/u/0?cid=Y2hpY2Fnb2luZm9zZWNldmVudHNAZ21haWwuY29t</a><br />
-<br />
-<br />
-<b>Posting events:</b><br />
-If you would like to promote events, you can send a calendar invite ChicagoInfoSecEvents@gmail.com. FYI: The sending email will be visible on the public calendar.<br />
-Note: If you frequently host events (i.e. ISACA, BurbSec, ISSA, CSA, etc.), the calendar organizers will reach out and ask if you want calendar admin access to manage your events. Direct access will be limited to people well-known by one of the organizers, since they could delete events created by other groups.<br />
-<br />
-<b>Events should include the following:</b><br />
-- Event organizer (i.e. ISACA, BurbSec, ISSA, CSA, etc.)<br />
-- Event name<br />
-- Date/time<br />
-- Location<br />
-- URL<br />
-&nbsp;&nbsp;* If the event is NOT open to everyone, please state by invitation (or members) only, and do NOT include a URL.<br />
-&nbsp;&nbsp;* Please include the direct URL, and NOT a shortened URL (i.e. no bit.ly, goo.gl, etc. links)<br />
-- Discount codes appreciated, but not required<br />
-- No attachments<br />
-<br />
-<b>Only events that meet the following conditions should be posted:</b><br />
-- Must be in person<br />
-- Local to Chicago or hosted by an active member of the Chicago community<br />
-&nbsp;&nbsp;* Exceptions will be made for big events that pull numerous attendees from the Chicago area such as RSA, BlackHat, etc.<br />
-</p>
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Welcome</h2>
+            <p>The purpose of this effort is to coordinate scheduling for all the in-person security events in the Chicagoland area.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Accessing the Calendar</h2>
+            <div class="calendar-links">
+                <h3>Public Calendar:</h3>
+                <a href="https://calendar.google.com/calendar/embed?src=chicagoinfosecevents@gmail.com&ctz=America%2FChicago" target="_blank">https://calendar.google.com/calendar/embed?src=chicagoinfosecevents@gmail.com&ctz=America%2FChicago</a>
+                
+                <h3>Public iCal:</h3>
+                <a href="https://calendar.google.com/calendar/ical/chicagoinfosecevents@gmail.com/public/basic.ics" target="_blank">https://calendar.google.com/calendar/ical/chicagoinfosecevents@gmail.com/public/basic.ics</a>
+                
+                <h3>To integrate with your personal Google calendar:</h3>
+                <a href="https://calendar.google.com/calendar/u/0?cid=Y2hpY2Fnb2luZm9zZWNldmVudHNAZ21haWwuY29t" target="_blank">https://calendar.google.com/calendar/u/0?cid=Y2hpY2Fnb2luZm9zZWNldmVudHNAZ21haWwuY29t</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Posting Events</h2>
+            <p>If you would like to promote events, you can send a calendar invite to <strong>ChicagoInfoSecEvents@gmail.com</strong>.</p>
+            <p>Note: The sending email will be visible on the public calendar.</p>
+            <p>If you frequently host events (i.e. ISACA, BurbSec, ISSA, CSA, etc.), the calendar organizers will reach out and ask if you want calendar admin access to manage your events. Direct access will be limited to people well-known by one of the organizers, since they could delete events created by other groups.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Event Requirements</h2>
+            <h3>Events should include the following:</h3>
+            <ul class="rules-list">
+                <li>Event organizer (i.e. ISACA, BurbSec, ISSA, CSA, etc.)</li>
+                <li>Event name</li>
+                <li>Date/time</li>
+                <li>Location</li>
+                <li>URL
+                    <ul class="rules-list">
+                        <li class="sub-item">If the event is NOT open to everyone, please state by invitation (or members) only, and do NOT include a URL.</li>
+                        <li class="sub-item">Please include the direct URL, and NOT a shortened URL (i.e. no bit.ly, goo.gl, etc. links)</li>
+                    </ul>
+                </li>
+                <li>No attachments</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Eligibility Criteria</h2>
+            <h3>Only events that meet the following conditions should be posted:</h3>
+            <ul class="rules-list">
+                <li>Must be in person</li>
+                <li>Local to Chicago or hosted by an active member of the Chicago community
+                    <ul class="rules-list">
+                        <li class="sub-item">Exceptions will be made for big events that pull numerous attendees from the Chicago area such as RSA, BlackHat, etc.</li>
+                    </ul>
+                </li>
+                <li>Discount codes appreciated, but not required</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Chicago InfoSec Events Calendar</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
