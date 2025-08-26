@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://chicagoinfosecevents.github.io/</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Google Calendar embed -->
+  <url>
+    <loc>https://calendar.google.com/calendar/embed?src=ChicagoInfoSecEvents@gmail.com&amp;ctz=America%2FChicago</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Public iCal -->
+  <url>
+    <loc>https://calendar.google.com/calendar/ical/ChicagoInfoSecEvents@gmail.com/public/basic.ics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
+
