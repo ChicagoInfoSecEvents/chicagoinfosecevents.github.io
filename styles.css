@@ -136,7 +136,7 @@ h3 {
   background-color: white;
 }
 
-.rules-list {
+.rules-list, .rules-list ul {
   list-style-type: none;
   margin-left: 1rem;
 }
@@ -157,6 +157,27 @@ h3 {
 
 .sub-item {
   margin-left: 1.5rem;
+}
+
+/* Automatic styling for nested lists */
+.rules-list ul {
+  margin-left: 1.5rem;
+}
+
+.rules-list ul ul {
+  margin-left: 1.5rem;
+}
+
+/* First-level sub-item bullets */
+.rules-list ul li::before {
+  color: var(--chicago-blue);
+  font-size: 1.2rem;
+}
+
+/* Second-level sub-sub-item bullets */
+.rules-list ul ul li::before {
+  color: var(--chicago-red);
+  font-size: 0.95rem;
 }
 
 footer {
@@ -221,4 +242,4 @@ p {
 
 .chicago-star.fallback::before {
   content: "";
-} 
+}
